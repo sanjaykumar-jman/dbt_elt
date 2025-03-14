@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: source
+    database: miniproj
+    schema: stage
+    tables:
+      - name: transactions
+      - name: customers
+      - name: products
+      - name: customer_country
+      
