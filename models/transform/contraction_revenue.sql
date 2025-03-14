@@ -24,6 +24,7 @@ c3 as (
     from c2
     where revenuelag > revenuepmonth
 )
+
 select * from c3
 
 /*
